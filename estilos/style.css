@@ -1,5 +1,5 @@
 body{
-    font-family: 'Lobster', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
     margin-left: 20px;
     background-color:#FED8FD;
 }
@@ -20,7 +20,7 @@ h2{
 }
 header{
     margin: 0 auto;
-    border: red solid 2px;
+    /* border: red solid 2px; */
     justify-content: center;
     display: flex;
     padding: 30px;
@@ -30,7 +30,7 @@ header{
 
 .imagen-redondo{
     border-radius: 210px;
-    border: 10px solid red;
+    border: 10px solid rgb(255, 215, 215);
     margin: 20px 50px;
 }
 
@@ -39,6 +39,8 @@ header a{
     font-family: 'Architects Daughter', cursive;
     font-weight: 600;
     font-size: 42px;
+    display: contents;
+    color: rgb(255, 0, 255);
 }
 
 header li{
@@ -62,3 +64,36 @@ header li{
     list-style-type: none;
 }
 
+.contactar{
+    background-color: rgb(226, 232, 240);
+    border: black solid 2px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: space-between;
+    
+}
+.social{
+  /* border: 2px solid red; */
+}
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    /* border: 1px solid black; */
+}
+
+.social-link.facebook{
+    background-image: url(../redesocial/facebook.svg);
+   background-size: 50px 50px;
+}
+.social-link.instagram{
+    background-image: url(../redesocial/instagram.svg);
+   background-size: 50px 50px;
+}
+.social-link.whatsapp{
+    background-image: url(../redesocial/whatsapp.svg);
+   background-size: 50px 50px;
+}
